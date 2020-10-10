@@ -1,2 +1,3 @@
 # MoholeIpsum
- lorem ipsum with Mohole text
+ Lorem Ipsum Generator with Mohole text 
+  https://fflab.github.io/MoholeIpsum/
