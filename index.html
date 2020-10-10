@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohole Ipsum Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section-center">
+        <h2>Mohole Ipsum</h2>
+        <form class="lorem-form">
+          <label for="numofpara">quanti paragrafi?:</label>
+          <div class="paraAmountNum">
+            <input type="range" min="1" max="8" value="1" id="numofparaRange" />
+            <input type="number" min="1" max="8" value="1" id="numofpara" />
+            <button type="submit" class="btn">generate</button>
+          </div>
+          
+        </form>
+        <article class="lorem-text"></article>
+      </section>
+      <script src="main.js"></script>
+</body>
+</html>

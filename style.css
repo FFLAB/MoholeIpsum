@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+}
+.section-center{
+    margin: 50px auto;
+    width:80vw;
+    line-height: 1.5;
+}
+.section-center p{
+    margin: 10px 0;
+}
+form{
+    display: flex;
+}
+label{font-size: 1.5rem;}
+.btn{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(29, 170, 71);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    border: 0;
+    cursor: pointer;
+}
+input{
+    padding: 0.25rem 0.5rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 2rem;
+}
