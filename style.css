@@ -17,6 +17,12 @@ body{
 }
 form{
     display: flex;
+    padding:10px;
+}
+.auth{
+    color: forestgreen;
+    text-align: center;
+    padding:30px;
 }
 label{font-size: 1.5rem;}
 .btn{
