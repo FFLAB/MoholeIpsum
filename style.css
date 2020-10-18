@@ -44,3 +44,10 @@ input{
     margin: 0 0.5rem;
     font-size: 2rem;
 }
+a{
+    text-decoration: underline;
+    color: forestgreen;
+}
+a:hover{
+    color: rgb(29, 170, 71); ;
+}
