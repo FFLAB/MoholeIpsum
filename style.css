@@ -46,8 +46,8 @@ label{font-size: 1.5rem;}
     background-color: rgba(29, 170, 71, 0.8);
     color: white;
     text-transform: uppercase;
-    font-size: 1.2rem;
-    margin-left: 20px;
+    font-size: 1.1rem;
+    margin-left: 15px;
     border: 0;
     cursor: pointer;
     text-decoration: none;
@@ -65,6 +65,7 @@ input{
     border: none;
     margin: 0 0.5rem;
     font-size: 1.7rem;
+    margin-bottom: 10px;
 }
 a{
     text-decoration: underline;
