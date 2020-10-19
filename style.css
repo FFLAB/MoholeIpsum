@@ -6,7 +6,20 @@
 body{
     font-size: 18px;
     font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+    color: white;
+    background-color: #333333;
 }
+p:nth-child(1){color: rgb(59, 248, 75);}
+p:nth-child(2){color: rgb(248, 229, 59);}
+p:nth-child(3){color: rgb(248, 135, 59);}
+p:nth-child(4){color: rgb(59, 188, 248);}
+p:nth-child(5){color: rgb(232, 59, 248);}
+p:nth-child(6){color: rgb(59, 248, 75);}
+p:nth-child(7){color: rgb(248, 229, 59);}
+p:nth-child(8){color: rgb(248, 135, 59);}
+.col1{color:rgb(59, 248, 75);}
+.col2{color:rgb(248, 229, 59)}
+.col3{color:rgb(248, 135, 59)}
 .section-center{
     margin: 50px auto;
     width:80vw;
@@ -28,13 +41,19 @@ label{font-size: 1.5rem;}
 .btn{
     padding: 15px;
     border-radius: 5px;
-    background-color: rgb(29, 170, 71);
+    background-color: rgba(29, 170, 71, 0.8);
     color: white;
     text-transform: uppercase;
     font-size: 1.2rem;
     margin-left: 20px;
     border: 0;
     cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    box-shadow: 0 0 10px rgba(255,255,255,0.4);
+    background-color: rgb(29, 170, 71);    
 }
 input{
     padding: 0.25rem 0.5rem;
