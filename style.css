@@ -17,6 +17,8 @@ p:nth-child(5){color: rgb(232, 59, 248);}
 p:nth-child(6){color: rgb(59, 248, 75);}
 p:nth-child(7){color: rgb(248, 229, 59);}
 p:nth-child(8){color: rgb(248, 135, 59);}
+p:nth-child(9){color: rgb(59, 188, 248);}
+p:nth-child(10){color: rgb(232, 59, 248);}
 .col1{color:rgb(59, 248, 75);}
 .col2{color:rgb(248, 229, 59)}
 .col3{color:rgb(248, 135, 59)}
@@ -62,7 +64,7 @@ input{
     border-radius: 0.5rem;
     border: none;
     margin: 0 0.5rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 a{
     text-decoration: underline;
